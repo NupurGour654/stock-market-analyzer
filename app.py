@@ -3,7 +3,7 @@
 from stock_utils import fetch_stock_data, plot_closing_price
 
 def main():
-    symbol = input("Enter stock ticker symbol (e.g., AAPL): ").upper()
+    symbol = input("Enter stock ticker symbol (e.g., AAPL): ").strip().upper()
     print(f"Fetching data for {symbol}...")
     data = fetch_stock_data(symbol)
     if data is not None:
