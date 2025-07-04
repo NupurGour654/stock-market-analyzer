@@ -1,2 +1,3 @@
+# Required packages for Stock Market Analyzer
 yfinance>=0.2.33
 matplotlib>=3.7.1
