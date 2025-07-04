@@ -7,6 +7,8 @@ def main():
     print(f"Fetching data for {symbol}...")
     data = fetch_stock_data(symbol)
     if data is not None:
+    else:
+    print("Failed to fetch data. Please check the symbol and try again.")
         plot_closing_price(data, symbol)
 
 if __name__ == "__main__":
