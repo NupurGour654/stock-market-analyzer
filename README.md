@@ -32,6 +32,14 @@ stock-market-analyser/
 3. requirements.txt
 4. readme.md
 
+## Data Source
+
+All stock data is fetched using the Yahoo Finance API via the `yfinance` Python package.
+
+## Author
+
+Developed by Nupur Singh
+
 
 
 
