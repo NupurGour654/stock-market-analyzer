@@ -10,7 +10,7 @@ def fetch_stock_data(symbol):
     except Exception as e:
         print("Error fetching data:", e)
         return None
-
+# Added plot_closing_price function
 def plot_closing_price(data, symbol):
     data['Close'].plot(title=f"{symbol} Closing Price (Last 1 Month)")
     plt.xlabel("Date")
