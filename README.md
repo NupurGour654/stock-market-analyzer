@@ -13,3 +13,11 @@ This is a simple Python project to analyze and visualize stock closing prices us
 - Python
 - yfinance
 - matplotlib
+## Setup Instructions
+
+1. Clone the repository
+2. Install dependencies:pip install -r requirements.txt
+3. Run the script: 
+4. When prompted, enter the stock ticker symbol (for example: AAPL, INFY.NS, TCS.NS)
+
+
