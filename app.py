@@ -1,3 +1,5 @@
+# Entry point for Stock Market Analyzer
+
 from stock_utils import fetch_stock_data, plot_closing_price
 
 def main():
