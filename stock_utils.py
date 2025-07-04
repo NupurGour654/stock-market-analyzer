@@ -1,6 +1,7 @@
 import yfinance as yf
 import matplotlib.pyplot as plt
 
+# Added fetch_stock_data function
 def fetch_stock_data(symbol):
     try:
         stock = yf.Ticker(symbol)
