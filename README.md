@@ -19,5 +19,22 @@ This is a simple Python project to analyze and visualize stock closing prices us
 2. Install dependencies:pip install -r requirements.txt
 3. Run the script: 
 4. When prompted, enter the stock ticker symbol (for example: AAPL, INFY.NS, TCS.NS)
+   
+## Example Output
+
+After running the app and entering a valid stock symbol like `AAPL`, a line chart of the stock’s closing prices over the past month will be displayed.
+
+
+## Project Structure
+stock-market-analyser/
+-app.py
+-stock_utils.py
+-requirements.txt
+-readme.md
+
+
+
+
+
 
 
