@@ -27,10 +27,11 @@ After running the app and entering a valid stock symbol like `AAPL`, a line char
 
 ## Project Structure
 stock-market-analyser/
--app.py
--stock_utils.py
--requirements.txt
--readme.md
+1. app.py
+2. stock_utils.py
+3. requirements.txt
+4. readme.md
+
 
 
 
