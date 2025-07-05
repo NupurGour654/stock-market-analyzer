@@ -18,3 +18,9 @@ def plot_closing_price(data, symbol):
     plt.grid(True)
     plt.savefig(f"{symbol}_closing_price.png")
     plt.show()
+    
+    def save_data_to_csv(data, symbol):
+    filename = f"{symbol}_data.csv"
+    data.to_csv(filename)
+    print(f"Data saved to {filename}")
+
