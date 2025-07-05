@@ -2,14 +2,17 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 
 # Added fetch_stock_data function
-def fetch_stock_data(symbol):
+def fetch_stock_data(symbol, start=None, end=None):
     try:
-        stock = yf.Ticker(symbol)
-        hist = stock.history(period="1mo")
-        return hist
+        data = yf.download(symbol, start=start, end=end)
+        if data.empty:
+            print("No data found.")
+            return None
+        return data
     except Exception as e:
-        print("Error fetching data:", e)
+        print("Error fetching stock data:", e)
         return None
+
 # Added plot_closing_price function
 def plot_closing_price(data, symbol):
     data['Close'].plot(title=f"{symbol} Closing Price (Last 1 Month)")
