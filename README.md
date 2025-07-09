@@ -1,6 +1,6 @@
 # Stock Market Analyzer
 
-This is a simple Python project to analyze and visualize stock closing prices using data from Yahoo Finance.
+This is a Python project to analyze and visualize stock closing prices using data from Yahoo Finance.
 
 ## Features
 
