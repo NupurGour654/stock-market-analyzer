@@ -22,8 +22,13 @@ def main():
 print(f"Fetching data for {symbol}...")
 
     #data = fetch_stock_data(symbol)
-    start = input("Enter start date (YYYY-MM-DD): ")
-    end = input("Enter end date (YYYY-MM-DD): ")
+start = input("Enter start date (YYYY-MM-DD): ")
+end = input("Enter end date (YYYY-MM-DD): ")
+
+if not (validate_date_format(start) and validate_date_format(end)):
+    print("Invalid date format. Please use YYYY-MM-DD.")
+    return
+
     data = fetch_stock_data(symbol, start, end)
 
 
