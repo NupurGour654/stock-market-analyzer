@@ -37,6 +37,6 @@ if not (validate_date_format(start) and validate_date_format(end)):
         save_data_to_csv(data, symbol)
     else:
         print("Failed to fetch data. Please check the symbol and try again.")
-
+return data
 if __name__ == "__main__":
     main()
