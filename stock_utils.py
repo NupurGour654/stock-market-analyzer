@@ -17,7 +17,10 @@ def fetch_stock_data(symbol, start=None, end=None):
 # Added plot_closing_price function
 def plot_closing_price(data, symbol):
      """Plot and save the closing price line graph for a stock."""
-    data['Close'].plot(title=f"{symbol} Closing Price (Last 1 Month)")
+    #data['Close'].plot(title=f"{symbol} Closing Price (Last 1 Month)")
+     start = data.index.min().strftime("%Y-%m-%d")
+     end = data.index.max().strftime("%Y-%m-%d")
+     data['Close'].plot(title=f"{symbol} Closing Price ({start} to {end})")
     plt.xlabel("Date")
     plt.ylabel("Closing Price (USD)")
     plt.grid(True)
