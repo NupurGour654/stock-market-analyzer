@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 # Added fetch_stock_data function
 def fetch_stock_data(symbol, start=None, end=None):
+     """Fetch stock data using yfinance for a given symbol and date range."""
     try:
         data = yf.download(symbol, start=start, end=end)
         if data.empty:
