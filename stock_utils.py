@@ -29,7 +29,7 @@ def plot_closing_price(data, symbol):
     
 def save_data_to_csv(data, symbol):
      """Save stock data to a CSV file named after the stock symbol."""
-    filename = f"{symbol}_data.csv"
+    filename = f"{symbol.lower()}_data.csv"
     data.to_csv(filename)
     print(f"Data saved to {filename}")
 
