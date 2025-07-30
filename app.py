@@ -14,8 +14,13 @@ def validate_date_format(date_str):
 
 
 def main():
-    symbol = input("Enter stock ticker symbol (e.g., AAPL): ").strip().upper()
-    print(f"Fetching data for {symbol}...")
+   symbol = input("Enter stock ticker symbol (e.g., AAPL): ").strip().upper()
+    if not symbol:
+    print("Stock symbol cannot be empty.")
+    return
+
+print(f"Fetching data for {symbol}...")
+
     #data = fetch_stock_data(symbol)
     start = input("Enter start date (YYYY-MM-DD): ")
     end = input("Enter end date (YYYY-MM-DD): ")
