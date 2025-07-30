@@ -1,6 +1,17 @@
 # Entry point for Stock Market Analyzer
 
 from stock_utils import fetch_stock_data, plot_closing_price, save_data_to_csv
+from datetime import datetime
+from stock_utils import fetch_stock_data, plot_closing_price, save_data_to_csv
+
+def validate_date_format(date_str):
+    """Check if date is in YYYY-MM-DD format"""
+    try:
+        datetime.strptime(date_str, "%Y-%m-%d")
+        return True
+    except ValueError:
+        return False
+
 
 def main():
     symbol = input("Enter stock ticker symbol (e.g., AAPL): ").strip().upper()
