@@ -17,7 +17,6 @@ This is a Python project to analyze and visualize stock closing prices using dat
 
 1. Clone the repository
 2. Install dependencies:pip install -r requirements.txt
- ejhrviu you ru3ir   22oep qkr3q2p53][ t5p63 6[
 3. Run the script: 
 4. When prompted, enter the stock ticker symbol (for example: AAPL, INFY.NS, TCS.NS)
    
