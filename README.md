@@ -24,6 +24,7 @@ This is a Python project to analyze and visualize stock closing prices using dat
 ## Example Output
 
 After running the app and entering a valid stock symbol like `AAPL`, a line chart of the stock’s closing prices over the past month will be displayed.
+bgswtjjrrbzhdhhejweehjweh
 
 
 ## Project Structure
