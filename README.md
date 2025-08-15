@@ -1,51 +1,41 @@
 # Stock Market Analyzer
 
-This is a Python project to analyze and visualize stock closing prices using data from Yahoo Finance.
+The **Stock Market Analyzer** is a Python-based tool designed to help users fetch, analyze, and visualize recent stock market data with ease. Leveraging the **Yahoo Finance API** through the `yfinance` library, this project provides a quick way to monitor stock trends and make informed decisions based on recent price movements.
+
+## Overview
+
+This tool focuses on **closing prices** for the past month, offering an interactive, visual representation of a stock's recent performance. With just the stock’s ticker symbol, you can retrieve up-to-date historical data and generate a clear line chart for quick trend analysis.
+
+Whether you are:
+- A beginner learning about stock market data analysis
+- A trader looking for a quick snapshot of market performance
+- Or a developer exploring the integration of finance APIs with Python  
+
+…this project serves as a practical and lightweight solution.
+
+---
 
 ## Features
 
-- Fetches last 1-month historical data of a given stock.
-- Visualizes the stock's closing price using a line chart.
-- Uses `yfinance` for data and `matplotlib` for plotting.
+- **Real-time Data Fetching**  
+  Automatically retrieves the latest one-month historical data for any given stock symbol.
 
+- **Data Visualization**  
+  Generates a clean, easy-to-read line chart plotting **closing prices over time**, making trends instantly visible.
+
+- **Seamless API Integration**  
+  Uses the `yfinance` library to communicate with Yahoo Finance, ensuring reliable and accurate data.
+
+- **Lightweight & Easy to Run**  
+  No complex configurations — simply run the script, enter the stock symbol, and view the chart.
+
+---
 
 ## Technologies Used
 
-- Python
-- yfinance
-- matplotlib
-## Setup Instructions
+- **Python** – Core programming language for implementation
+- **yfinance** – For fetching stock market data from Yahoo Finance
+- **matplotlib** – For creating detailed line charts of closing prices
 
-1. Clone the repository
-2. Install dependencies:pip install -r requirements.txt
-3. Run the script: 
-4. When prompted, enter the stock ticker symbol (for example: AAPL, INFY.NS, TCS.NS)
-   
-## Example Output
-
-After running the app and entering a valid stock symbol like `AAPL`, a line chart of the stock’s closing prices over the past month will be displayed.
-
-
-## Project Structure
-stock-market-analyser/
-1. app.py
-2. stock_utils.py
-3. requirements.txt
-4. readme.md
-
-
-## Data Source
-
-All stock data is fetched using the Yahoo Finance API via the `yfinance` Python package.
-
-## Author
-
-Developed by Nupur Singh
-
-
-
-
-
-
-
+---
 
