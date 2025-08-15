@@ -31,7 +31,7 @@ stock-market-analyser/
 2. stock_utils.py
 3. requirements.txt
 4. readme.md
-5.  jesjtqv jahrgv 4y  veyquv yoq1ddewwwbgec
+
 
 ## Data Source
 
