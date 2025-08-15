@@ -6,7 +6,7 @@ This is a Python project to analyze and visualize stock closing prices using dat
 
 - Fetches last 1-month historical data of a given stock.
 - Visualizes the stock's closing price using a line chart.
-- Uses `yfinance` for data and `matplotlib` for plotting.
+- Uses `yfinance` for data and `matplotlib` for plotting.C,M,VMSDLFSLEFLSLE;FW
 
 ## Technologies Used
 
